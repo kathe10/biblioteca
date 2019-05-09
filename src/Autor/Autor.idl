@@ -1,0 +1,8 @@
+module AutorApp{
+interface Autor{
+boolean insertarPersona( in wstring au_autor);
+boolean actualizarPersona(in long au_idautor, in wstring au_autor);
+boolean eliminarPersona(in long au_idautor);
+oneway void shutdown();
+};
+};
