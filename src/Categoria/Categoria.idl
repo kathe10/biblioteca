@@ -1,0 +1,8 @@
+module CategoriaApp{
+interface Categoria{
+boolean insertarCategoria( in long id_categoria,in wstring ca_categoria);
+boolean actualizarCategoria( in long id_categoria,in wstring ca_categoria);
+boolean eliminarCategoria( in long id_categoria,in wstring ca_categoria);
+oneway void shutdown();
+};
+};
