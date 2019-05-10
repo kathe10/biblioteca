@@ -3,36 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Autor;
-
-import Conexion.Conexion;
-import org.omg.CORBA.ORB;
+package Categoria;
 
 /**
  *
- * import java.sql.*;
- *import javax.swing.JOptionPane;
- *import org.omg.CORBA.ORB;
- *import Conexion.Conexion;
+ * @author Kathe
  */
-public class Autor extends AutorApp.AutorPOA {
-    
-    
-    private ORB orb;
-    Conexion conectar = new Conexion();
+public class Categoria extends CategoriaApp.CategoriaPOA {
 
     @Override
-    public boolean insertarPersona(String au_autor) {
+    public boolean insertarCategoria(int id_categoria, String ca_categoria) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public boolean actualizarPersona(int au_idautor, String au_autor) {
+    public boolean actualizarCategoria(int id_categoria, String ca_categoria) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public boolean eliminarPersona(int au_idautor) {
+    public boolean eliminarCategoria(int id_categoria, String ca_categoria) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

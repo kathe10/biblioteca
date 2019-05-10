@@ -86,7 +86,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Identifaci&#xf3;n "/>
+        <Property name="text" type="java.lang.String" value="Identificaci&#xf3;n "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnActualizar">
