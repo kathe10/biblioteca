@@ -1,0 +1,8 @@
+module LectorApp{
+interface Lector{
+boolean insertarLector( in long dnilector,in wstring nombre,in wstring celular,in wstring observacion);
+boolean actualizarLector( in long dnilector,in wstring nombre,in wstring celular,in wstring observacion);
+boolean eliminarLector( in long dnilector,in wstring nombre,in wstring celular,in wstring observacion);
+oneway void shutdown();
+};
+};
