@@ -1,0 +1,8 @@
+module LibroApp{
+interface Libro{
+boolean insertarLibro( in wstring titulo,in wstring autor,in wstring categoria,in wstring editorial,in wstring paginas,in wstring descripcion,in wstring portada);
+boolean actualizarLibro(in long asin, in wstring titulo,in wstring autor,in wstring categoria,in wstring editorial,in wstring paginas,in wstring descripcion,in wstring portada);
+boolean eliminarLibro(in long asin, in wstring titulo,in wstring autor,in wstring categoria,in wstring editorial,in wstring paginas,in wstring descripcion,in wstring portada);
+oneway void shutdown();
+};
+};
