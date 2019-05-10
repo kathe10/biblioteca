@@ -1,0 +1,8 @@
+module AlquilerApp{
+interface Alquiler{
+boolean insertarAlquiler( in long id_alquiler,in long id_lector,in long id_libro  );
+boolean actualizarAlquiler( in long id_alquiler,in long id_lector,in long id_libro  );
+boolean eliminarAlquiler(in long id_alquiler);
+oneway void shutdown();
+};
+};
