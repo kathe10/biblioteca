@@ -1,8 +1,0 @@
-module EditorialApp{
-interface Editorial{
-boolean insertarEditorial( in long id_editorial,in wstring ed_editorial);
-boolean actualizarEditorial( in long id_editorial,in wstring ed_editorial);
-boolean eliminarEditorial( in long id_editorial,in wstring ed_editorial);
-oneway void shutdown();
-};
-};
